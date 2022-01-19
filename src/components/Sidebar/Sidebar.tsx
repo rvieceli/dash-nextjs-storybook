@@ -7,6 +7,7 @@ import {
   DrawerHeader,
   DrawerOverlay,
 } from "@chakra-ui/react";
+
 import { useSidebarDrawer } from "../../contexts/SidebarDrawer.context";
 import { useIsWideScreen } from "../../hooks/useIsWideScreen";
 import { NavMenu } from "./NavMenu/NavMenu";
@@ -14,7 +15,7 @@ import { NavMenu } from "./NavMenu/NavMenu";
 const Sidebar = () => {
   const { isOpen, onClose } = useSidebarDrawer();
   const isWideScreen = useIsWideScreen();
-
+  console.log({ isWideScreen });
   if (!isWideScreen) {
     return (
       <Drawer isOpen={isOpen} placement="left" onClose={onClose}>

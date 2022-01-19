@@ -19,7 +19,7 @@ const SidebarDrawerProvider = ({ children }: SidebarDrawerProviderProps) => {
   useEffect(() => {
     disclosure.onClose();
     // eslint-disable-next-line
-  }, [router.asPath]);
+  }, [router?.asPath]);
 
   return (
     <SidebarDrawerContext.Provider value={disclosure}>
