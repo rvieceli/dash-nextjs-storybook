@@ -11213,6 +11213,11 @@ storybook-addon-next-router@^3.1.1:
   dependencies:
     tslib "^2.3.0"
 
+storybook-mirage@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/storybook-mirage/-/storybook-mirage-0.0.4.tgz#572e5d310ad8f0dd963e5c341aa2402f8ed07749"
+  integrity sha512-oGjsxyxmedXQtsVW1DDwKM1RocAD5zClFeOFtAhK46NcGXLJ31m2WQg5kL7YqrsriorrCZq4vvSy05DVCD7BKQ==
+
 stream-browserify@3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/stream-browserify/-/stream-browserify-3.0.0.tgz"

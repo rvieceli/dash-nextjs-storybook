@@ -1,17 +1,13 @@
 import type { NextPage } from "next";
-import Head from "next/head";
 
+import { PageContainer } from "app/components";
 import { Dashboard } from "app/feature/Dashboard/Dashboard";
 
 const DashboardPage: NextPage = () => {
   return (
-    <>
-      <Head>
-        <title>DashGo</title>
-      </Head>
-
+    <PageContainer title="Dashboard">
       <Dashboard />
-    </>
+    </PageContainer>
   );
 };
 

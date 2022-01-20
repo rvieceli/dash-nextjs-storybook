@@ -7,6 +7,7 @@ module.exports = {
     "@storybook/addon-essentials",
     "@chakra-ui/storybook-addon",
     "storybook-addon-next-router",
+    "storybook-mirage",
   ],
   framework: "@storybook/react",
   core: {

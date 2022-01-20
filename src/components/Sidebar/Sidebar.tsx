@@ -15,7 +15,7 @@ import { NavMenu } from "./NavMenu/NavMenu";
 const Sidebar = () => {
   const { isOpen, onClose } = useSidebarDrawer();
   const isWideScreen = useIsWideScreen();
-  console.log({ isWideScreen });
+
   if (!isWideScreen) {
     return (
       <Drawer isOpen={isOpen} placement="left" onClose={onClose}>
